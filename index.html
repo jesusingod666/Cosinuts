@@ -74,15 +74,27 @@
                     </p>
                 </div>
                 <div class="main__pic__wrapper">
-                    <img src="img/kesh__mob.png" alt="#" class="kesh__white">
-                    <img src="img/kesh_comp__mob.png" alt="#" class="kesh__brown">
+                    <picture>
+
+                        <source media="(min-width: 1300px)" srcset="img/kesh__desk.png">
+                        <img src="img/kesh__mob.png" alt="#" class="kesh__white">
+
+                    </picture>
+                    
+                    <picture>
+
+                        <source media="(min-width: 1300px)" srcset="img/kesh_comp__desk.png">
+                        <img src="img/kesh_comp__mob.png" alt="#" class="kesh__brown">
+
+                    </picture>
+                    
                 </div>
                 <div class="main__input_wrapper">
                     <input type="text" placeholder="Кешью Австралийский">
                     <button class="main__input_button" type="button">
                         <img src="img/loupe__icon.svg" alt="#" class="loupe__icon">
                     </button>
-                </div>
+            </div>
             </div>
             <div class="our__stock">
                 <h2>Наш ассортимент</h2>
