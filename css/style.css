@@ -27,7 +27,6 @@ ul, li, a, h1, h2, h3, p {
     position: relative;
     display: flex;
     background-color: rgba(83, 141, 255, 0.05);
-    padding-left: 90px;
 }
 .header__burger {
     position: absolute;
@@ -447,6 +446,10 @@ ul, li, a, h1, h2, h3, p {
         margin-left: 27px;
     }
 
+    .header__body {
+        padding-left: 90px;
+    }
+
     .header__list {
         display: flex;
         width: 671px;
@@ -669,5 +672,68 @@ ul, li, a, h1, h2, h3, p {
     .kesh__brown {
         top: 44%;
         left: 61%;
+    }
+}
+
+
+/* ABOUT PAGE MOBILE */
+
+.about__page__container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 5px 10px;
+    background-color: rgba(83, 141, 255, 0.05);
+    margin-bottom: 38px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.about__us__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.about__us__wrapper h1 {
+    font-size: 36px;
+    letter-spacing: 1px;
+    color: #343030;
+    margin-bottom: 32px;
+}
+
+.about__us__wrapper p {
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #252525;
+    margin-bottom: 46px;
+}
+
+.logo__about {
+    margin-bottom: 58px;
+}
+
+/* ABOUT PAGE DESKTOP */
+
+
+@media (min-width: 1300px) {
+    .about__us__wrapper h1 {
+        font-size: 72px;
+    }
+
+    .about__us__wrapper p {
+        font-size: 23px;
+        line-height: 50px;
+        padding: 0 100px;
+        margin-bottom: 65px;
+    }
+
+    .logo__about {
+        width: 913px;
+        height: 335px;
+    }
+
+    .header__body {
+        padding-bottom: 89px;
     }
 }
